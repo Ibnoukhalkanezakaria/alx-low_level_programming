@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - using if and else to print the right result 
- * Return: 0 
+ * main - Using if and else to print the right result
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -30,3 +31,4 @@ int main(void)
 
     return (0);
 }
+
