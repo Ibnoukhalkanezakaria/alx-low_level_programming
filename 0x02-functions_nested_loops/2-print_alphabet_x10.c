@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * using loop to write all alphabet lowercase
+ * using loop
  * Return: the parameter
  */
 void print_alphabet(void)
