@@ -1,17 +1,12 @@
 #include "main.h"
-
 /**
- *_abs - if 
- *@n : input
- *Return: 0
+ * _abs - absolute value
+ * @n: the integer(parametre)
+ * Return: n or (-n)
  */
-
 int _abs(int n)
 {
-        if (n < 0)
-        return (-n);
-        else
-	{
-        return (n);
-	}
+	if (n >= 0)
+		return (n);
+	return (-n);
 }
