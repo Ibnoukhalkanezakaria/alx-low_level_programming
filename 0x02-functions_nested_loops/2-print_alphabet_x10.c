@@ -1,13 +1,18 @@
 #include "main.h"
 /**
  * using loop
- * Return: the parameter
+ * Return: void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
+	int i = 0;
 	int n;
 
-	for (n = 'a' ;  n <= 'z' ; n++)
-		_putchar(n);
-	_putchar('\n');
+	while (i < 10)
+	{
+		for (n = 'a' ; n <= 'z' ; n++)
+			_putchar(n);
+		_putchar('\n');
+		i++;
+	}
 }
