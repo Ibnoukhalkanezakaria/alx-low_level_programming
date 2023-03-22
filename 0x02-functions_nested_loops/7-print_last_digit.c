@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * using if and putchar
- * @n: number
+ * print_last_digit - last digit of a number
+ * @n: the number(parametre)
  * Return: n%10
  */
 int print_last_digit(int n)
