@@ -1,17 +1,13 @@
 #include "main.h"
-
 /**
- * using loop to write all the alphabet
- *
- * Return: the parameter
+ * print_alphabet - lowercase
+ * Return: void
  */
 void print_alphabet(void)
 {
-    char letter;
+	int n;
 
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        _putchar(letter);
-    }
-    _putchar('\n');
+	for (n = 'a' ;  n <= 'z' ; n++)
+		_putchar(n);
+	_putchar('\n');
 }
