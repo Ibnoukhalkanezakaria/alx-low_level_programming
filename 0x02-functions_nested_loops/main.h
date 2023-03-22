@@ -1,10 +1,14 @@
-int _putchar(char a);
+#include <stdio.h>
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
+int _putchar(char c);
 int _isalpha(int c);
 int print_sign(int n);
-int _abs(int);
-int print_last_digit(int);
+int _abs(int n);
+int print_last_digit(int n);
 void jack_bauer(void);
-int add(int, int);
+int add(int x, int y);
+void print_to_98(int n);
+void times_table(void);
+void print_times_table(int n);
