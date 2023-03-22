@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * using if and return
- *
+ * _islower - using if and return
+ * @c: the main caracter
  * Return: 0 or 1
  */
 
