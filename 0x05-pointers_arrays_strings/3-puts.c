@@ -12,6 +12,6 @@ int len = 0;
 while (str[len] != '\0')
 len++;
 
-write(CHECK, str, len);
-write(CHECK, "\n", 1);
+write(STDOUT_FILENO, str, len);
+write(STDOUT_FILENO, "\n", 1);
 }
