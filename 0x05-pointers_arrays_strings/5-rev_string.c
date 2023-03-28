@@ -1,17 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-*rev_string - using while
+*rev_string - using while 
 *@s: input
 *Return: void
 */
 
-int main(void)
+void rev_string(char *s)
 {
-char s[10] = "My School";
-printf("%s\n", s);
-rev_string(s);
-printf("%s\n", s);
-return (0);
+int length, i;
+
+length = 0;
+i = 0;
+
+while (s[length])
+{
+length++;
 }
+while (i < (length / 2))
+{
+char tmp = s[length - 1 - i];
+
+s[length - 1 - i] = s[i];
+s[i] = tmp;
+i++;
+}
+}
+
