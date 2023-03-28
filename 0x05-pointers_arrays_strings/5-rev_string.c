@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+*rev_string - using while
+*@s: input
+*Return: void
+*/
+
 int main(void)
 {
 char s[10] = "My School";
